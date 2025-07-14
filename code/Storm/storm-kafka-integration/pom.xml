@@ -9,7 +9,7 @@
     <version>1.0</version>
 
     <properties>
-        <storm.version>1.2.2</storm.version>
+        <storm.version>2.6.0</storm.version>
         <kafka.version>2.2.0</kafka.version>
     </properties>
 
@@ -78,10 +78,8 @@
                         </goals>
                         <configuration>
                             <transformers>
-                                <transformer
-                                        implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
-                                <transformer
-                                        implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                 </transformer>
                             </transformers>
                         </configuration>
