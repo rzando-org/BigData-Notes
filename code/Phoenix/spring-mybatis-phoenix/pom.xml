@@ -8,7 +8,7 @@
     <artifactId>spring-mybatis-phoenix</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <spring-base-version>5.1.6.RELEASE</spring-base-version>
+        <spring-base-version>6.2.11</spring-base-version>
     </properties>
 
     <dependencies>
@@ -67,7 +67,7 @@
         <dependency>
             <groupId>org.apache.phoenix</groupId>
             <artifactId>phoenix-core</artifactId>
-            <version>4.14.0-cdh5.14.2</version>
+            <version>5.2.0</version>
         </dependency>
     </dependencies>
 
